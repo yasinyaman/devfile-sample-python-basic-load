@@ -1,2 +1,2 @@
 Flask==2.1.0
-cpu-load-generator==1.20
+cpu-load-generator==1.2.0

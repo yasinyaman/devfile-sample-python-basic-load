@@ -6,7 +6,11 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    load_all_cores(duration_s=600, target_load=0.5)
+    return "Hello World!"
+
+@app.route('/test')
+def hello():
+    load_all_cores(duration_s=60, target_load=0.5)
     return "Hello World!"
 
 if __name__ == '__main__':
